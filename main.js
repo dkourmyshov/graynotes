@@ -40,7 +40,7 @@ var EditorView = Backbone.View.extend({
 });
 
 var NotesListItem = Backbone.View.extend({
-  template: _.template('<heading><%= title %></heading><br><span class="timestamp"><%= date %>'),
+  template: _.template('<heading><%= title %></heading><br><span class="timestamp"><%= date %></span>'),
   tagName: 'li',
   events: {
     'click': 'clickHandler'
