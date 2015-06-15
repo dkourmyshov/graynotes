@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#buttons {
+  text-align: right;
+  padding: 10px;
+}
+
+#main {
+  flex: 1;
+  display: flex;
+}
+
+#notes_list_column {
+  max-width: 20%;
+  flex: 1;
+  word-wrap: break-word; 
+}
+
+#editor {
+  flex: 4;
+  display: flex;
+}
+
+#editor textarea {
+  /*height: 100%;*/
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+  flex: 1;
+}
+
+.selected {
+  background-color: gainsboro; 
+}
+
+ul {
+  list-style-type: none;
+  /*margin: 0;*/
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 10pt;
+}
